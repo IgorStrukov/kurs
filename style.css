@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+#button{
+    display:block;width:203px;
+    padding:.5rem 1rem;
+    margin:100px 0 0 400px;
+    border-radius:0.3rem;
+    font-size: 1.25rem;font-weight: 500;line-height: 1.5;
+    box-shadow: 0 2px 11px 0 rgba(171, 210, 23, 1);
+    background: linear-gradient(90deg, rgba(171, 210, 23, 1) 0%, rgba(69, 185, 46, 1) 43%);
+    border:none;
+    color:#fff;
+    
+    transition: color .15s ease-in-out,
+        background-color .15s ease-in-out,
+        border-color .15s ease-in-out,
+        box-shadow .15s ease-in-out;
+}
+#button:hover{
+       box-shadow: 0 2px 31px 0 rgba(171, 210, 23, 1);
+}
